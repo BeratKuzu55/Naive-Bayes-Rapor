@@ -15,13 +15,16 @@ P ( B ) = B olayının gerçekleşme olasılığı
 
 <h3> İşleme Şekli </h3>
 Arkadaşlarımızdan ailemizden ve çeşitli şirketlerden e-postalar aldığımızı düşünelim ailemizden ve arkadaşlarımızdan gelen e-postaları dğier reklam kampanya tarzı e-postalardan ayırmak istiyoruz bunun için öncelikle bir veri seti kullanıp olasılık hesabı yapmamız gerekiyor.
+</br>
 Örneğin 8 tane normal 4 tane gereksiz mesajın olduğu bir veri setini kullanıyoruz ve normal mesajlarda 10 adet x , 5 adet y , 1 adet z kelimesi var gereksizlerde ise 2 x , 1 y ve 10 z kelimesi olsun.
+</br>
 Sonrasında xxy içeren bir mesajın hangi klasörde olacağını bulmak istedğimizi düşünelim bu durumda normal klasörde olma ihtimali için (gelen mesajın normal olma olasılığı) * (x kelimesinin normal mesajda olma olsılığının karesi) * (y mesajın normal mesajda olma olasılığı) ile sonuç elde ederiz
+</br>
 Sonrasında aynı işlemi gereksiz mesaj olasılıkları ile de yapıp bulduğumuz sonuçları karşılaştırırz hangi olasılık daha yüksek ise mesajı o klasöre koyarız
 Bu messaj xxy den oluştuğundan ve x ile y nin olasılıkları gerekli klasörde yüksek olduğundan muhtemelen gerekli bir mesaj olarak tahmin edilecektir eğer mesajımız zzzy gibi bir mesaj olsaydı bunun çok daha yüksek ihtimalle gereksiz mesaj klasöründe olacağını öngörebiliriz. 
-
+</br>
 Buraya kadar olan kısmı bayes teoremiydi
-
+</br>
 Biz bu sınıflandırmayı yaparken herhangi bir sıralamyı göz önünde bulundurmadık yani mesajın xxy olması durumuyla yxx olması bizim olasılığımızı etkilemediğinden biz bu şekildeki sınıflandırmaya Naive Bayes diyoruz 
 
 Çeşitleri
@@ -41,12 +44,13 @@ Tahmin ediciler sürekli bir değer aldıklarında ve ayrık olmadıklarında, b
   </ul>
 
 
-
+</br>
 Naive Bayes Sınıflandırıcısının Avantajları
 Her özellik birbirinden bağımsız kabul edildiği için logistic regresyon gibi modellerden daha iyi performans gösterebilir.
 Az veriyle iyi işler başarabilir.
 Sürekli ve kesikli veriler ile kullanılabilir.
 Yüksek boyutlu verilerde iyi çalışabilir.
+</br>
 Naive Bayes Sınıflandırıcısının Dezavantajları
 Özellikler birbirinden bağımsız varsayılarak işlem yapıldığı için değişkenler arası ilişkiler modellenemez.
 Sıfır olasılık problemi ile karşı karşıya kalabilirsiniz. Sıfır olasılık istediğimiz örneğin veri setinde hiç bulunmaması durumudur.Yani herhangi bir işleme alındığında sonucu sıfır yapacaktır. Bunun için en basit yöntem tüm verilere minimum değer ekleyerek (genellikle 1) bu olasılık ortadan kaldırılabilir. Bu duruma Laplace kullanılarak tahminleme de denmektedir.
