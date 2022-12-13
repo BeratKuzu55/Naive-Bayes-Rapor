@@ -56,6 +56,7 @@ Naive Bayes Sınıflandırıcısının Dezavantajları</br>
 Özellikler birbirinden bağımsız varsayılarak işlem yapıldığı için değişkenler arası ilişkiler modellenemez.
 Sıfır olasılık problemi ile karşı karşıya kalabilirsiniz. Sıfır olasılık istediğimiz örneğin veri setinde hiç bulunmaması durumudur.Yani herhangi bir işleme alındığında sonucu sıfır yapacaktır. Bunun için en basit yöntem tüm verilere minimum değer ekleyerek (genellikle 1) bu olasılık ortadan kaldırılabilir. Bu duruma Laplace kullanılarak tahminleme de denmektedir.
 </br></br>
+<h3>KAYNAKÇA</h3>
 https://kodedu.com/2014/05/naive-bayes-siniflandirma-algoritmasi/
 
 https://medium.com/@ekrem.hatipoglu/machine-learning-classification-naive-bayes-part-11-4a10cd3452b4#:~:text=Naive%20Bayes%20Classifier&text=lazy%20(%20tembel%20)%20bir%20%C3%B6%C4%9Frenme%20algoritmas%C4%B1d%C4%B1r,verisiyle%20%C3%A7ok%20ba%C5%9Far%C4%B1l%C4%B1%20i%C5%9Fler%20%C3%A7%C4%B1kartabilir.
