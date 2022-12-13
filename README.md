@@ -12,19 +12,19 @@ P ( A | B ) = B olayı gerçekleştiğinde A olayının gerçekleşme olasılı�
 P ( A ) = A olayının gerçekleşme olasılığı
 P ( B | A ) = A olayı gerçekleştiğinde B olayının gerçekleşme olasılığı
 P ( B ) = B olayının gerçekleşme olasılığı
-
+</br></br>
 <h3> İşleme Şekli </h3>
   Arkadaşlarımızdan ailemizden ve çeşitli şirketlerden e-postalar aldığımızı düşünelim ailemizden ve arkadaşlarımızdan gelen e-postaları dğier reklam kampanya tarzı e-postalardan ayırmak istiyoruz bunun için öncelikle bir veri seti kullanıp olasılık hesabı yapmamız gerekiyor.
-</br>
+</br></br>
   Örneğin 8 tane normal 4 tane gereksiz mesajın olduğu bir veri setini kullanıyoruz ve normal mesajlarda 10 adet x , 5 adet y , 1 adet z kelimesi var gereksizlerde ise 2 x , 1 y ve 10 z kelimesi olsun.
-</br>
+</br></br>
   Sonrasında xxy içeren bir mesajın hangi klasörde olacağını bulmak istedğimizi düşünelim bu durumda normal klasörde olma ihtimali için (gelen mesajın normal olma olasılığı) * (x kelimesinin normal mesajda olma olsılığının karesi) * (y mesajın normal mesajda olma olasılığı) ile sonuç elde ederiz
 </br>
   Sonrasında aynı işlemi gereksiz mesaj olasılıkları ile de yapıp bulduğumuz sonuçları karşılaştırırz hangi olasılık daha yüksek ise mesajı o klasöre koyarız
 Bu messaj xxy den oluştuğundan ve x ile y nin olasılıkları gerekli klasörde yüksek olduğundan muhtemelen gerekli bir mesaj olarak tahmin edilecektir eğer mesajımız zzzy gibi bir mesaj olsaydı bunun çok daha yüksek ihtimalle gereksiz mesaj klasöründe olacağını öngörebiliriz. 
-</br>
+</br></br>
   Buraya kadar olan kısmı bayes teoremiydi
-</br>
+</br></br>
   Biz bu sınıflandırmayı yaparken herhangi bir sıralamyı göz önünde bulundurmadık yani mesajın xxy olması durumuyla yxx olması bizim olasılığımızı etkilemediğinden biz bu şekildeki sınıflandırmaya Naive Bayes diyoruz 
 </br>
     Çeşitleri
