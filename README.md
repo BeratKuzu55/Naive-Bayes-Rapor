@@ -62,7 +62,7 @@ https://kodedu.com/2014/05/naive-bayes-siniflandirma-algoritmasi/
 https://medium.com/@ekrem.hatipoglu/machine-learning-classification-naive-bayes-part-11-4a10cd3452b4#:~:text=Naive%20Bayes%20Classifier&text=lazy%20(%20tembel%20)%20bir%20%C3%B6%C4%9Frenme%20algoritmas%C4%B1d%C4%B1r,verisiyle%20%C3%A7ok%20ba%C5%9Far%C4%B1l%C4%B1%20i%C5%9Fler%20%C3%A7%C4%B1kartabilir.
 
 https://youtu.be/O2L2Uv9pdDA</br>
-https://devhunteryz.wordpress.com/2019/12/02/naive-bayes-siniflandirici/
+https://devhunteryz.wordpress.com/2019/12/02/naive-bayes-siniflandirici/ </br>
 https://www.datasciencearth.com/algorithm-naive-bayes-classifier/
 
 
